@@ -12,11 +12,11 @@ class F {
   static String get title {
     switch (appFlavor!) {
       case Flavor.dev:
-        return 'CleanArch DEV';
+        return '{{name.pascalCase()}} DEV';
       case Flavor.uat:
-        return 'CleanArch UAT';
+        return '{{name.pascalCase()}} UAT';
       case Flavor.prod:
-        return 'CleanArch';
+        return '{{name.pascalCase()}}';
     }
   }
 }

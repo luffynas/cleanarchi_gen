@@ -14,7 +14,7 @@ flavors:
       resValues: 
         app_name: 
           type: string
-          value: CleanArch DEV
+          value: {{name.pascalCase()}} DEV
         facebook_app_id: 
           type: string
           value: variable1
@@ -46,7 +46,7 @@ flavors:
       resValues: 
         app_name: 
           type: string
-          value: CleanArch UAT
+          value: {{name.pascalCase()}} UAT
         facebook_app_id: 
           type: string
           value: variable1
@@ -77,7 +77,7 @@ flavors:
       resValues: 
         app_name: 
           type: string
-          value: CleanArch
+          value: {{name.pascalCase()}}
         facebook_app_id: 
           type: string
           value: variable1

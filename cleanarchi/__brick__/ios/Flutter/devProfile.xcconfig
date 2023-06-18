@@ -2,8 +2,8 @@
 
 FLUTTER_TARGET=lib/main_dev.dart
 ASSET_PREFIX=dev
-BUNDLE_NAME=CleanArch DEV
-BUNDLE_DISPLAY_NAME=CleanArch DEV
+BUNDLE_NAME={{name.pascalCase()}} DEV
+BUNDLE_DISPLAY_NAME={{name.pascalCase()}} DEV
 facebook_app_id=variable1
 fb_login_protocol_scheme=variable2
 facebook_client_token=variable3

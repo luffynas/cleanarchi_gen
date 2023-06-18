@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:{{name.snakeCase()}}/core/ui/themes/themes.dart';
 import 'package:{{name.snakeCase()}}/features/controllers/user/user_controller.dart';
 import 'package:{{name.snakeCase()}}/features/pages/dashboard/home_page_view.dart';
@@ -6,8 +8,6 @@ import 'package:{{name.snakeCase()}}/features/pages/dashboard/user_page_view.dar
 import 'package:{{name.snakeCase()}}/features/pages/settings/setting_page.dart';
 import 'package:{{name.snakeCase()}}/features/widgets/layout/base_layout.dart';
 import 'package:{{name.snakeCase()}}/translations/translation_message_key.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 class DashboardPage extends StatefulWidget {
   const DashboardPage({super.key});
@@ -52,9 +52,18 @@ class _DashboardPageState extends State<DashboardPage> {
         body: pages[position],
         bottomNavigationBar: BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Users'),
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Todos'),
+            BottomNavigationBarItem(
+              icon: Icon(AppIcons.ic_fi_home),
+              label: 'Home',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(AppIcons.ic_fi_users),
+              label: 'Users',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(AppIcons.ic_chat_dots),
+              label: 'Todos',
+            ),
           ],
           onTap: (index) {
             setState(() {
