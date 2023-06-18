@@ -1,7 +1,9 @@
+import 'package:flutter/material.dart';
 import 'package:{{name.snakeCase()}}/core/ui/styles/style.dart';
 import 'package:{{name.snakeCase()}}/core/ui/themes/themes.dart';
 import 'package:{{name.snakeCase()}}/features/widgets/widget_toggle.dart';
-import 'package:flutter/material.dart';
+import 'package:{{name.snakeCase()}}/features/widgets/widget_type.dart';
+import 'package:{{name.snakeCase()}}/features/widgets/widget_type.dart';
 
 class MediumButton extends StatelessWidget {
   const MediumButton({
@@ -15,6 +17,9 @@ class MediumButton extends StatelessWidget {
     this.suffixIcon,
     this.toggle = WidgetToggle.active,
     this.backgroundColor,
+    this.position,
+    this.imageSrc,
+    this.borderRadius,
   }) : super();
 
   final VoidCallback? onPressed;
@@ -26,6 +31,11 @@ class MediumButton extends StatelessWidget {
   final Icon? suffixIcon;
   final WidgetToggle toggle;
   final Color? backgroundColor;
+  final WidgetPosition? position;
+  final String? imageSrc;
+  final BorderRadiusGeometry? borderRadius;
+
+  bool get isImage => imageSrc != null && imageSrc!.isNotEmpty;
 
   @override
   Widget build(BuildContext context) {
@@ -53,14 +63,14 @@ class MediumButton extends StatelessWidget {
                 return AppTypography.smallMedium
                     .copyWith(color: AppColors.gray[200]);
               }
-              return (AppTypography.smallMedium);
+              return AppTypography.smallMedium;
             },
           ),
           side: MaterialStateProperty.all<BorderSide>(
             BorderSide(color: colorBorder ?? AppColors.gray[200]!),
           ),
           shape: MaterialStateProperty.all<OutlinedBorder>(
-            RoundedRectangleBorder(borderRadius: AppRadius.md),
+            RoundedRectangleBorder(borderRadius: borderRadius ?? AppRadius.md),
           ),
         ),
       ),
@@ -75,6 +85,17 @@ class MediumButton extends StatelessWidget {
                 child: prefixIcon,
               ),
             ),
+            Visibility(
+              visible: isImage && position == WidgetPosition.left,
+              child: Padding(
+                padding: const EdgeInsets.only(right: 8),
+                child: Image.asset(
+                  imageSrc ?? '',
+                  width: 24,
+                  height: 24,
+                ),
+              ),
+            ),
             Text(
               title,
             ),
@@ -82,6 +103,17 @@ class MediumButton extends StatelessWidget {
               child: Container(
                 padding: const EdgeInsets.only(left: 8),
                 child: suffixIcon,
+              ),
+            ),
+            Visibility(
+              visible: isImage && position == WidgetPosition.right,
+              child: Padding(
+                padding: const EdgeInsets.only(right: 8),
+                child: Image.asset(
+                  imageSrc ?? '',
+                  width: 24,
+                  height: 24,
+                ),
               ),
             ),
           ],

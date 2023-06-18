@@ -1,7 +1,7 @@
-import 'package:{{name.snakeCase()}}/core/enum/main_state.dart';
-import 'package:{{name.snakeCase()}}/core/services/storage_repository.dart';
 import 'package:get/get.dart';
 import 'package:get_it/get_it.dart';
+import 'package:{{name.snakeCase()}}/core/enum/main_state.dart';
+import 'package:{{name.snakeCase()}}/core/services/storage_repository.dart';
 
 class MainController extends GetxController {
   Rx<MainState> mainState = MainState.splash.obs;
@@ -25,8 +25,7 @@ class MainController extends GetxController {
       if (await storage.getAuthStorage().hasToken()) {
         mainState.value = MainState.authorized;
       } else {
-        // mainState.value = MainState.unauthorized;
-        mainState.value = MainState.authorized;
+        mainState.value = MainState.unauthorized;
       }
     }
   }
@@ -35,5 +34,9 @@ class MainController extends GetxController {
   Future<void> exitOnboarding() async {
     await storage.getConfigStorage().isFirstApp(value: false);
     await initMain();
+  }
+
+  Future<void> setDummyToken() async {
+    await storage.getAuthStorage().saveToken('dummyToken');
   }
 }

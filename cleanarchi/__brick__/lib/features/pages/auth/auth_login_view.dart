@@ -1,10 +1,10 @@
 import 'dart:developer';
 
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:{{name.snakeCase()}}/features/controllers/auth/auth_state.dart';
 import 'package:{{name.snakeCase()}}/features/controllers/auth/auth_view_controller.dart';
 import 'package:{{name.snakeCase()}}/features/controllers/main_controller.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 class AuthLoginView extends StatefulWidget {
   const AuthLoginView({super.key});
@@ -16,10 +16,6 @@ class AuthLoginView extends StatefulWidget {
 class _AuthLoginViewState extends State<AuthLoginView> {
   final textUsername = TextEditingController();
   final textPassword = TextEditingController();
-
-  void onLogin() {
-    Get.find<MainController>().initMain();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -49,9 +45,10 @@ class _AuthLoginViewState extends State<AuthLoginView> {
           ),
           const SizedBox(height: 16),
           TextButton(
-            onPressed: () {
+            onPressed: () async {
               log('message :::adfadf :::');
-              onLogin.call();
+              await Get.find<MainController>().setDummyToken();
+              await Get.find<MainController>().exitOnboarding();
             },
             child: const Text('Login Now'),
           ),

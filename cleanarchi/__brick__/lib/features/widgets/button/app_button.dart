@@ -1,10 +1,10 @@
+import 'package:flutter/material.dart';
 import 'package:{{name.snakeCase()}}/features/widgets/button/extra_small_button.dart';
 import 'package:{{name.snakeCase()}}/features/widgets/button/large_button.dart';
 import 'package:{{name.snakeCase()}}/features/widgets/button/medium_button.dart';
 import 'package:{{name.snakeCase()}}/features/widgets/button/small_button.dart';
 import 'package:{{name.snakeCase()}}/features/widgets/widget_toggle.dart';
 import 'package:{{name.snakeCase()}}/features/widgets/widget_type.dart';
-import 'package:flutter/material.dart';
 
 class AppButton extends StatelessWidget {
   const AppButton({
@@ -18,6 +18,9 @@ class AppButton extends StatelessWidget {
     required this.title,
     this.prefixIcon,
     this.suffixIcon,
+    this.position,
+    this.imageSrc,
+    this.borderRadius,
     this.toggle = WidgetToggle.active,
   });
 
@@ -31,6 +34,9 @@ class AppButton extends StatelessWidget {
   final Icon? prefixIcon;
   final Icon? suffixIcon;
   final WidgetToggle toggle;
+  final WidgetPosition? position;
+  final String? imageSrc;
+  final BorderRadiusGeometry? borderRadius;
 
   @override
   Widget build(BuildContext context) {
@@ -47,6 +53,9 @@ class AppButton extends StatelessWidget {
           prefixIcon: prefixIcon,
           suffixIcon: suffixIcon,
           toggle: toggle,
+          position: position,
+          imageSrc: imageSrc,
+          borderRadius: borderRadius,
         );
       case WidgetType.sm:
         return SmallButton(
@@ -60,6 +69,9 @@ class AppButton extends StatelessWidget {
           prefixIcon: prefixIcon,
           suffixIcon: suffixIcon,
           toggle: toggle,
+          position: position,
+          imageSrc: imageSrc,
+          borderRadius: borderRadius,
         );
       case WidgetType.md:
         return MediumButton(
@@ -73,6 +85,9 @@ class AppButton extends StatelessWidget {
           prefixIcon: prefixIcon,
           suffixIcon: suffixIcon,
           toggle: toggle,
+          position: position,
+          imageSrc: imageSrc,
+          borderRadius: borderRadius,
         );
       case WidgetType.lg:
         return LargeButton(
@@ -86,6 +101,9 @@ class AppButton extends StatelessWidget {
           prefixIcon: prefixIcon,
           suffixIcon: suffixIcon,
           toggle: toggle,
+          position: position,
+          imageSrc: imageSrc,
+          borderRadius: borderRadius,
         );
     }
   }
