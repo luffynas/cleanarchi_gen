@@ -1,0 +1,68 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "{{name.paramCase()}}",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--flavor", "dev"]
+    },
+    {
+      "name": "{{name.paramCase()}} (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "args": ["--flavor", "dev"]
+    },
+    {
+      "name": "{{name.paramCase()}} (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "args": ["--flavor", "dev"]
+    },
+    {
+      "name": "{{name.paramCase()}} uat",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--flavor", "uat"]
+    },
+    {
+      "name": "{{name.paramCase()}} uat",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "args": ["--flavor", "uat"]
+    },
+    {
+      "name": "{{name.paramCase()}} uat",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "args": ["--flavor", "uat"]
+    },
+    {
+      "name": "{{name.paramCase()}} prod",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--flavor", "prod"]
+    },
+    {
+      "name": "{{name.paramCase()}} prod",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "args": ["--flavor", "prod"]
+    },
+    {
+      "name": "{{name.paramCase()}} prod",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "args": ["--flavor", "prod"]
+    }
+  ]
+}

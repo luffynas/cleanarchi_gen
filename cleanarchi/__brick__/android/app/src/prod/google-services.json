@@ -1,0 +1,266 @@
+{
+  "project_info": {
+    "project_number": "149484702300",
+    "project_id": "vdvc-a8005",
+    "storage_bucket": "vdvc-a8005.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149484702300:android:d9d03fd0e70f6b6bfcf499",
+        "android_client_info": {
+          "package_name": "app.ureca.id"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149484702300-rbq4de5jd0ohkeo57gqmagh7ver8jltp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZGRi7dvGqRlfAjZwG5eNUxUGcc3dkd6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149484702300-rbq4de5jd0ohkeo57gqmagh7ver8jltp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "149484702300-aoea7ogudu7uj6snkp14kleq5d3t3uhk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.yureca.id.staging"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149484702300:android:e08b325f4ad2d380fcf499",
+        "android_client_info": {
+          "package_name": "app.ureca.id.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149484702300-rbq4de5jd0ohkeo57gqmagh7ver8jltp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZGRi7dvGqRlfAjZwG5eNUxUGcc3dkd6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149484702300-rbq4de5jd0ohkeo57gqmagh7ver8jltp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "149484702300-aoea7ogudu7uj6snkp14kleq5d3t3uhk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.yureca.id.staging"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149484702300:android:a90343673d34644afcf499",
+        "android_client_info": {
+          "package_name": "app.ureca.id.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149484702300-rbq4de5jd0ohkeo57gqmagh7ver8jltp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZGRi7dvGqRlfAjZwG5eNUxUGcc3dkd6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149484702300-rbq4de5jd0ohkeo57gqmagh7ver8jltp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "149484702300-aoea7ogudu7uj6snkp14kleq5d3t3uhk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.yureca.id.staging"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149484702300:android:e7eff4e8f4d5ebf5fcf499",
+        "android_client_info": {
+          "package_name": "app.yureca.id"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149484702300-db7v31vku1tav42f7ll18stk6ejlumsg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.yureca.id",
+            "certificate_hash": "6607d1d7c32f308a5fc409e2df870347fd031e34"
+          }
+        },
+        {
+          "client_id": "149484702300-pm8qk409tl9mli3kifnjee2e1kj3sc1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.yureca.id",
+            "certificate_hash": "a48966e5a1e52519306a74f9c4fc7f1d55ccf1b5"
+          }
+        },
+        {
+          "client_id": "149484702300-rbq4de5jd0ohkeo57gqmagh7ver8jltp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZGRi7dvGqRlfAjZwG5eNUxUGcc3dkd6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149484702300-rbq4de5jd0ohkeo57gqmagh7ver8jltp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "149484702300-aoea7ogudu7uj6snkp14kleq5d3t3uhk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.yureca.id.staging"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149484702300:android:0d36be6efa0ebb10fcf499",
+        "android_client_info": {
+          "package_name": "app.yureca.id.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149484702300-rbq4de5jd0ohkeo57gqmagh7ver8jltp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZGRi7dvGqRlfAjZwG5eNUxUGcc3dkd6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149484702300-rbq4de5jd0ohkeo57gqmagh7ver8jltp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "149484702300-aoea7ogudu7uj6snkp14kleq5d3t3uhk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.yureca.id.staging"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149484702300:android:002de3a124ce63fdfcf499",
+        "android_client_info": {
+          "package_name": "app.yureca.id.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149484702300-45hhqj4p08gi38qfj31qatodlslqlg9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.yureca.id.staging",
+            "certificate_hash": "a48966e5a1e52519306a74f9c4fc7f1d55ccf1b5"
+          }
+        },
+        {
+          "client_id": "149484702300-fnngq7ii26mm4po0sij0uiqss2s51e4v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.yureca.id.staging",
+            "certificate_hash": "5c131e63b59cf64b18e6f007d70af20e9efd4341"
+          }
+        },
+        {
+          "client_id": "149484702300-hvtjjlqm0dj1o8k14v3g6cstg9s3qjjb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.yureca.id.staging",
+            "certificate_hash": "6607d1d7c32f308a5fc409e2df870347fd031e34"
+          }
+        },
+        {
+          "client_id": "149484702300-rbq4de5jd0ohkeo57gqmagh7ver8jltp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZGRi7dvGqRlfAjZwG5eNUxUGcc3dkd6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149484702300-rbq4de5jd0ohkeo57gqmagh7ver8jltp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "149484702300-aoea7ogudu7uj6snkp14kleq5d3t3uhk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.yureca.id.staging"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

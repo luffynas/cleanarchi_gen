@@ -1,0 +1,9 @@
+{
+  "__className": "userDto", // <- The base class name of the object.
+  "__path": "/lib/data/dto", // <- override default path with a new one by adding '__path' key.
+  "id": 2937991,
+  "name": "Kanti Saini",
+  "email": "kanti_saini@rowe.test",
+  "gender": "male",
+  "status": "inactive"
+}

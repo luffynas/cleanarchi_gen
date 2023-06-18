@@ -1,0 +1,70 @@
+name: {{name.snakeCase()}}
+version: 1.0.0+1
+publish_to: none
+{{#description}}
+description: {{description}}.
+{{/description}}
+environment: 
+  sdk: '>=3.0.5 <4.0.0'
+dependencies: 
+  cupertino_icons: ^1.0.2
+  dio: ^5.0.0
+  equatable: ^2.0.5
+  flutter: 
+    sdk: flutter
+  flutter_dotenv: ^5.0.2
+  freezed_annotation: ^2.2.0
+  get: ^4.6.5
+  get_it: ^7.2.0
+  get_storage: ^2.0.3
+  json_annotation: ^4.8.0
+  logger: ^1.1.0
+  pull_to_refresh_flutter3: ^2.0.1
+  shared_preferences: ^2.0.18
+
+dev_dependencies: 
+  build_runner: ^2.3.3
+  flutter_flavorizr: ^2.2.1
+  flutter_test: 
+    sdk: flutter
+  freezed: ^2.3.2
+  json_serializable: ^6.6.1
+  pubspec_dependency_sorter: ^1.0.3
+  very_good_analysis: ^5.0.0+1
+  
+flutter: 
+  assets: 
+    - .env
+  
+  fonts:
+    - family: AppIcon
+      fonts:
+        - asset: assets/fonts/app-icon.ttf
+
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito/Nunito-BlackItalic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-ExtraBoldItalic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-BoldItalic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-SemiBoldItalic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-MediumItalic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-LightItalic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-ExtraLightItalic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-Black.ttf
+        - asset: assets/fonts/Nunito/Nunito-ExtraBold.ttf
+        - asset: assets/fonts/Nunito/Nunito-Bold.ttf
+        - asset: assets/fonts/Nunito/Nunito-SemiBold.ttf
+        - asset: assets/fonts/Nunito/Nunito-Medium.ttf
+        - asset: assets/fonts/Nunito/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito/Nunito-Light.ttf
+        - asset: assets/fonts/Nunito/Nunito-ExtraLight.ttf
+  uses-material-design: true

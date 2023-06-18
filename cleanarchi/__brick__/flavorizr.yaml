@@ -1,0 +1,104 @@
+app: 
+  android: 
+    flavorDimensions: flavor-type
+  ios: 
+    buildSettings: {}
+  macos:
+    buildSettings: {}
+flavors: 
+  dev: 
+    app: 
+      name: {{name.pascalCase()}} DEV
+    android: 
+      applicationId: {{package_name.lowerCase()}}.dev
+      resValues: 
+        app_name: 
+          type: string
+          value: CleanArch DEV
+        facebook_app_id: 
+          type: string
+          value: variable1
+        fb_login_protocol_scheme: 
+          type: string
+          value: variable2
+        facebook_client_token: 
+          type: string
+          value: variable3
+      firebase: 
+        config: .firebase/dev/google-services.json
+    ios: 
+      bundleId: {{package_name.lowerCase()}}.dev
+      variables:
+        facebook_app_id:
+          value: variable1
+        fb_login_protocol_scheme:
+          value: variable2
+        facebook_client_token: 
+          type: string
+          value: variable3
+      firebase: 
+        config: .firebase/dev/GoogleService-Info.plist
+  uat: 
+    app: 
+      name: {{name.pascalCase()}} UAT
+    android: 
+      applicationId: {{package_name.lowerCase()}}.uat
+      resValues: 
+        app_name: 
+          type: string
+          value: CleanArch UAT
+        facebook_app_id: 
+          type: string
+          value: variable1
+        fb_login_protocol_scheme: 
+          type: string
+          value: variable1
+        facebook_client_token: 
+          type: string
+          value: variable3
+      firebase: 
+        config: .firebase/dev/google-services.json
+    ios: 
+      bundleId: {{package_name.lowerCase()}}.uat
+      variables:
+        facebook_app_id:
+          value: variable1
+        fb_login_protocol_scheme:
+          value: variable2
+        facebook_client_token:
+          value: variable3
+      firebase: 
+        config: .firebase/dev/GoogleService-Info.plist
+  prod: 
+    app: 
+      name: {{name.pascalCase()}}
+    android: 
+      applicationId: {{package_name.lowerCase()}}
+      resValues: 
+        app_name: 
+          type: string
+          value: CleanArch
+        facebook_app_id: 
+          type: string
+          value: variable1
+        fb_login_protocol_scheme: 
+          type: string
+          value: variable2
+        facebook_client_token: 
+          type: string
+          value: variable3
+      firebase: 
+        config: .firebase/prod/google-services.json
+    ios: 
+      bundleId: {{package_name.lowerCase()}}
+      variables:
+        facebook_app_id:
+          value: variable1
+        fb_login_protocol_scheme:
+          value: variable2
+        facebook_client_token:
+          value: variable3
+      firebase: 
+        config: .firebase/prod/GoogleService-Info.plist
+
+ide: idea

@@ -1,0 +1,9 @@
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main_prod.dart
+ASSET_PREFIX=prod
+BUNDLE_NAME=CleanArch
+BUNDLE_DISPLAY_NAME=CleanArch
+facebook_app_id=variable1
+fb_login_protocol_scheme=variable2
+facebook_client_token=variable3

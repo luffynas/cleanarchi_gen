@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>149484702300-ph27f91vfrrb8m2olsu5eqju17369ted.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.149484702300-ph27f91vfrrb8m2olsu5eqju17369ted</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>149484702300-45hhqj4p08gi38qfj31qatodlslqlg9u.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC163XV-w7cJGHnhS1B_3pPySYXLOU2kbY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>149484702300</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>app.ureca.id</string>
+	<key>PROJECT_ID</key>
+	<string>vdvc-a8005</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vdvc-a8005.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:149484702300:ios:a396c717f12e00b2fcf499</string>
+</dict>
+</plist>
